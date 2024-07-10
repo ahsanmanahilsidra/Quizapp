@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+android:background="@drawable/loginbg"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="94dp"
+        android:src="@drawable/techtrivlogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="LOGIN"
+    android:textStyle="bold"
+    android:textColor="#6F9F3C"
+    android:textSize="30dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_marginTop="8dp"
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#1E88E5"
+            android:textSize="17dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/TextEmail"
+            android:layout_width="238dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#1E88E5"
+            android:textSize="17dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+           android:layout_gravity="center"
+            ></TextView>
+        <EditText
+            android:id="@+id/TextPassword"
+            android:layout_width="238dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:gravity="center"
+            android:background="@drawable/edittext"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:inputType="textPassword" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:id="@+id/signback"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="220dp"
+                android:clickable="true"
+                android:text="SignUp"
+                android:textColor="#1E88E5"
+                android:textSize="13dp"
+                android:textStyle="italic"></TextView>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:backgroundTint="#1775C8"
+            android:text="Login"
+            ></Button>
+    </LinearLayout>
+
+
+
+
